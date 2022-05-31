@@ -1,5 +1,17 @@
 import './styles/index.css';
-import tasks from './taskname.js';
+const tasks = [
+  {
+    description: 'wash the dishes',
+    completed: true,
+    index: 1,
+  },
+  {
+    description: 'complete to do list',
+    completed: true,
+    index: 2,
+  },
+];
+export default tasks;
 
 const heading = document.querySelector('.heading');
 
