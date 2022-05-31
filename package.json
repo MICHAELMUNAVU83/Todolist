@@ -1,5 +1,4 @@
 {
- 
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "index.js",
@@ -33,5 +32,8 @@
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.1"
+  },
+  "dependencies": {
+    "@lhci/server": "^0.9.0"
   }
 }
