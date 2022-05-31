@@ -39,7 +39,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'Webpack app',
       filename: 'index.html',
-      template: 'src/index.html',
+      template: 'src/template.html',
 
     }),
   ],
